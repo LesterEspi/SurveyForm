@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tribute</title>
+  <link rel="stylesheet" href="SurveyStyles.css">
+</head>
+<body>
+  <div class="container">
+    <hr />
+    <img src="https://static.wikia.nocookie.net/marvelcomicsfanon/images/2/21/Marvel-comics-logo-vector.png/revision/latest?cb=20170417155426">
+    <hr /> <br />
+    <h1 id="title" class="text-center">SURVEY ON THE <br/> WORLD'S MIGHTIEST HEROES</h1>
+    <p id="description" class="description text-center">
+      Are you a Marvel fan? This survey is perfect for you! Are you ready?
+    </p>
+  <form id="survey-form">
+    <div class="question">
+      <label id="name-label" for="name">What is your name?</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="text-forms"
+        placeholder="Place your name here"
+        required
+      />
+    </div>
+    <div class="question">
+      <label id="email-label" for="email">What is your email address?</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="text-forms"
+        placeholder="Place your email address here"
+        required
+      />
+    </div>
+    <div class="question">
+      <label id="number-label" for="number"
+        >How old are you?</label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="7"
+        max="100"
+        class="text-forms"
+        placeholder="Place your age here"
+      />
+    </div>
+    <div class="question">
+      <p>What is your favorite Marvel movie in the Marvel Cinematic Universe?</p>
+      <select id="dropdown" name="movie" class="text-forms" required>
+        <option disabled selected value>Favorite movie</option>
+        <option value="IronMan">Iron Man</option>
+        <option value="IronMan2">Iron Man 2</option>
+        <option value="Thor">Thor</option>
+        <option value="CaptAmerica">Captain America: The First Avenger</option>
+        <option value="Avengers">Marvel's the Avengers</option>
+        <option value="IronMan3">Iron Man 3</option>
+        <option value="Thor2">Thor: The Dark World</option>
+        <option value="CaptAmerica2">Captain America: The Winter Soldier</option>
+        <option value="Guardians">Guardians of the Galaxy</option>
+        <option value="Avengers2">Avengers: Age of Ultron</option>
+        <option value="AntMan">Ant-Man</option>
+        <option value="CaptAmerica3">Captain America: Civil War</option>
+        <option value="DrStrange">Doctor Strange</option>
+        <option value="Guardians2">Guardians of the Galaxy Vol. 2</option>
+        <option value="SpiderMan">Spider-Man: Homecoming</option>
+        <option value="Thor3">Thor: Ragnarok</option>
+        <option value="BlackPanther">Black Panther</option>
+        <option value="Avengers3">Avengers: Infinity War</option>
+        <option value="AntMan2">Ant-Man and the Wasp</option>
+        <option value="CaptMarvel">Captain Marvel</option>
+        <option value="Avengers4">Avengers: Endgame</option>
+        <option value="SpiderMan2">Spider-Man: Far From Home</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <p>Who is your favorite hero in the Marvel Cinematic Universe films?</p>
+      <div class="two">
+        <label>
+          <input
+            name="hero"
+            value="ironMan"
+            type="radio"
+            class="input-radio"
+            checked
+          />Iron Man</label>
+        <label>
+          <input
+            name="hero"
+            value="captAmerica"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Captain America</label>
+         <label>
+          <input
+            name="hero"
+            value="hulk"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />The Hulk</label>
+         <label>
+          <input
+            name="hero"
+            value="Thor"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Thor</label>
+         <label>
+          <input
+            name="hero"
+            value="blackWidow"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Black Widow</label>
+         <label>
+          <input
+            name="hero"
+            value="hawkeye"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Hawkeye</label>
+         <label>
+          <input
+            name="hero"
+            value="nick"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Nick Fury</label>
+         <label>
+          <input
+            name="hero"
+            value="loki"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Loki</label>
+         <label>
+          <input
+            name="hero"
+            value="falcon"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Falcon</label>
+         <label>
+          <input
+            name="hero"
+            value="scarletWitch"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Scarlet Witch</label>
+         <label>
+          <input
+            name="hero"
+            value="vision"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Vision</label>
+         <label>
+          <input
+            name="hero"
+            value="starLord"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Star Lord</label>
+         <label>
+          <input
+            name="hero"
+            value="gamora"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Gamora</label>
+         <label>
+          <input
+            name="hero"
+            value="rocket"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Rocket</label>
+         <label>
+          <input
+            name="hero"
+            value="groot"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Groot</label>
+         <label>
+          <input
+            name="hero"
+            value="drax"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Drax</label>
+         <label>
+          <input
+            name="hero"
+            value="antMan"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Ant Man</label>
+         <label>
+          <input
+            name="hero"
+            value="spiderMan"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Spiderman</label>
+         <label>
+          <input
+            name="hero"
+            value="winterSoldier"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Winter Soldier</label>
+         <label>
+          <input
+            name="hero"
+            value="wasp"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />The Wasp</label>
+         <label>
+          <input
+            name="hero"
+            value="drStrange"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Doctor Strange</label>
+         <label>
+          <input
+            name="hero"
+            value="mantis"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Mantis</label>
+         <label>
+          <input
+            name="hero"
+            value="nebula"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Nebula</label>
+          <label>
+          <input
+            name="hero"
+            value="captMarvel"
+            type="radio"
+            class="input-radio"
+            unchecked
+          />Captain Marvel</label>
+      </div>
+    </div>
+
+
+    <div class="question">
+      <p>
+        If given a choice, what superpowers would you have? <br>
+        <span class="clue">(Please choose two powers that would suit you)</span>
+      </p>
+
+      <label
+        ><input
+          name="power"
+          value="invi"
+          type="checkbox"
+          class="input-checkbox"
+        />Turn invisible for as long as you can hold your breath</label
+      >
+      <label
+        ><input
+          name="power"
+          value="animal"
+          type="checkbox"
+          class="input-checkbox"
+        />Transform into any animal you know</label        
+      >
+      <label
+        ><input
+          name="power"
+          value="laser"
+          type="checkbox"
+          class="input-checkbox"
+        />Shoot lasers by exposing your belly button</label
+      >
+      <label
+        ><input
+          name="power"
+          value="teleport"
+          type="checkbox"
+          class="input-checkbox"
+        />Teleport within your area of vision</label
+      >
+      <label
+        ><input
+          name="power"
+          value="fire"
+          type="checkbox"
+          class="input-checkbox"
+        />Be able to produce fire only when the sun is present</label
+      >
+      <label
+        ><input
+          name="power"
+          value="cloth"
+          type="checkbox"
+          class="input-checkbox"
+        />Create any piece of fabric from thin air</label
+      >
+      <label
+        ><input
+          name="power"
+          value="elastic"
+          type="checkbox"
+          class="input-checkbox"
+        />Elongate your body parts up to 3 meters</label
+      >
+      <label
+        ><input
+          name="power"
+          value="negate"
+          type="checkbox"
+          class="input-checkbox"
+        />Cancel the powers of the enemies by touching their hands</label
+      > 
+      <label
+        ><input
+          name="power"
+          value="mindread"
+          type="checkbox"
+          class="input-checkbox"
+        />Read people's mind only through eye contact</label
+      >  
+      <label
+        ><input
+          name="power"
+          value="elastic"
+          type="checkbox"
+          class="input-checkbox"
+        />Have the ability to talk with the dead</label
+      >
+    <div class="question">
+      <p>Any message for your favorite superheroes?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Place your thoughts here"
+      ></textarea>
+    </div>
+
+    <div class="question">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+     </div>
+    </form>
+  </div>
+</body>
+</html>
